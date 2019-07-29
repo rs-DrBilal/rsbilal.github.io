@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Muhammad Bilal</title>
+		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h2>Welcome to Dr. Bilal's website!</h2>
-				<p>Distinguished Professor at Nanjing University of Information Science and Technology (NUIST), Nanjing, China.</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
+  </head>
+
+
+  <body>
+    <nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/cv">CV</a></li>
+<li><a href="/blog">Blog</a></li>
+</ul>
+    </nav>
+<div class="container">
+
+  {{ content }}
+
+</div>
+  
+  <footer>
+   <ul>
         		<li><a href="mailto:muhammad.bilal@connect.polyu.hk">Email</a></li>
         		<li><a href="https://github.com/rsbilal">GitHub</a></li>
 			<li><a href="https://www.researchgate.net/profile/Muhammad_Bilal_phd">ResearchGate</a></li>
